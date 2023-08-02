@@ -1,12 +1,14 @@
-git init
-git status
-git add
-git rm --cached
-git commit -m
-git log
-git restore
-git log --oneline
-git log --oneline --pretty
-git config --global user.name " "
-git config --global user.email " "
-git checkout -b
+git init       ----To init empty git repository Or To make folder as Root Folder/Repository.
+git status     ----To check the untracked files in git
+git add        ----To add file from untracked to stage  
+git rm --cached ---To unstage the file
+git commit -m   ---To add file from stage to track, Now your file is being tracked
+git log       -----To check git logs 
+git restore   -----To restore the deleted file
+git log --oneline -- To display the git logs in short 
+git log --oneline --pretty ------ To display the logs in shorts with some details.
+git config --global user.name " "  ----To define the owner name of the file
+git config --global user.email " " ----To define the email of the file owner
+git checkout -b   -----------------To Switch from one branch to another branch
+git checkout Master -----------------switch from branch to master
+git branch  ----------------------- To check present branch
