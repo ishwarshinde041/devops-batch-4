@@ -3,3 +3,5 @@ git remote -v
 git push
 git pull
 git fetch
+git log
+git log --oneline
